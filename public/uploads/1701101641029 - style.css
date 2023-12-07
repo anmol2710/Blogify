@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none
+}
+header{
+    align-items: center;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background: url('images/bc.png');
+    background-size: cover  ;
+}
+.navbar{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    color: white;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+.logo img{
+    width: 20rem;
+}
+.logo p{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.search{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    border-radius: 10px;
+    height: 3rem;
+}
+.search input{
+    border: none;
+    font-size: 1rem;
+    height: 3rem;
+    width:80%;
+}
+.search input :active , :focus{
+    outline: 0;
+}
+.first{
+    width: 40%;
+}
+.space{
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+.secound{
+    width: 60%;
+}
+section{
+    /* position: relative; */
+    max-width: 70rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.container1{
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+.box{
+    padding: 5px;
+    overflow: hidden;
+    width: 22rem;
+    height: 16rem;
+}
+.image{
+    height: 70%;
+    overflow: hidden;
+    object-fit: contain;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.text{
+    border-radius: 10px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 30%;
+    overflow: hidden;
+    background-color: white;
+    padding: 12px;
+}
+.text p{
+    font-size: 1rem;
+}
+.text h2{
+    font-weight: lighter;
+}
+.container2{
+    margin-top: 2rem;
+    width: 100%;
+}
+.container2 h2{
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.text2 a{
+    color: red;
+}
